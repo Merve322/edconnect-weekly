@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand" href="#">Project Explorer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEdconnectContent" aria-controls="navbarEdconnectContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarEdconnectContent">
+              <form class="form-inline my-2 my-lg-0" name="searchForm">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search Projects" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                    <button type="submit" class="btn">Submit</button>
+              </form>
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                        <a class="nav-link" href="#">Sign up</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+
+      <main>
+          <div class="container">
+              <section>
+                 <h4 class="py-3">Project 1</h4>
+                 <div class="row p-3 mt-4 bg-light">
+                      <div class="col">
+                         Created By<br>Ade Chris
+                      </div>
+                      <div class="col">
+                         Date Created<br>2020-08-30 
+                      </div>
+                      <div class="col">
+                         Last Updated<br>2020-08-30
+                      </div>
+                      <div class="col">
+                          <div class="d-flex justify-content-end">
+                              <button class="btn btn-md btn-primary" type="submit">Edit Project</button>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+          </div>
+
+          <form class="px-5">
+              <div class="row py-4 mt-4">
+                  <div class="col">
+                     <b>Project Abstract</b><br>
+                  </div>
+                 <div class="col">
+                     <b>Project Details</b>
+                 </div>
+              </div>
+              <div class="form-row">
+                 <div class="col">
+                      <div>
+                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio possimus a voluptas quo impedit ducimus, nesciunt in deserunt numquam, totam repellat natus minima expedita error? Autem officiis dicta blanditiis repellat?
+                      </div>
+                  </div>
+                  <div class="col py-2">
+                     <div class="card">
+                         <div class="card-header">
+                              <b>Author(s)</b> 
+                          </div>
+                          <div class="card=body p-3">
+                             <p class="card-text">Ade Chris</p>
+                          </div>
+                         <div class="card-footer text-primary">
+                              #web
+                          </div>
+                      </div> 
+                  </div>
+              </div>
+              <div class="form-row">
+                  <div class="col-6">
+                      <div class="form-group">
+                          <label for="comments"><b>Comments</b></label>
+                          <textarea class="form-control" id="comments">Leave a comment</textarea>
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="card">
+                          <div class="card-header">
+                              <b>Project files</b>  
+                          </div>
+                          <div class="card-body">
+                              <p class="class-text text-center">No file uploaded yet</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <button class="btn btn-md btn-primary" type="submit">Submit</button>
+          </form>
+      </main>
+
+      <footer class="container">
+            <p class="mt-5 text-muted float-right">Project Explorer &copy; 2020 -<b>Edconnect</b></p>
+      </footer>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand" href="#">Project Explorer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEdconnectContent" aria-controls="navbarEdconnectContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarEdconnectContent">
+              <form class="form-inline my-2 my-lg-0" name="searchForm">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search Projects" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                    <button type="submit" class="btn">Submit</button>
+              </form>
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                        <a class="nav-link" href="#">Sign up</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+
+        <main>
+          <div class="bg-light p-3">
+              <form>
+                  <h4>Project Gallery</h4>
+                  <div class="form-row">
+                      <div class="col-6">
+                         <div class="form-group">
+                                <label for="searchTerm"></label>
+                                <input type="text" id="searchTerm" class="form-control form-control-lg" placeholder="Search project name, authors, abstract, tags">
+                          </div> 
+                      </div>
+                      <div class="col">
+                          <div class="form-group">
+                              <label for="searchType"></label>Search by
+                              <select class="form-control form-control-lg" id="searchType">
+                                    <option value="Name">Name</option>
+                                    <option value="Abstract">Abstract</option>
+                                    <option value="Authors">Authors</option>
+                                    <option value="Tags">Tags</option>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="col p-4">
+                          <button class="btn btn-lg btn-primary" type="submit">Submit</button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+
+          <h5 class="p-4">All Projects</h5>
+          <div class="d-flex">
+              <div class="form-row">
+                  <div class="col p-1">
+                      <div class="card">
+                          <div class="card-body">
+                              <h5 class="card-title text-primary">Project Title</h5>
+                              <h6 class="card-subtitle text-muted">Author 1, Author 2</h6>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-primary">#html #css #javascript</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col p-1">
+                      <div class="card">
+                          <div class="card-body">
+                              <h5 class="card-title text-primary">Project Title</h5>
+                              <h6 class="card-subtitle text-muted">Author 1, Author 2</h6>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="text-primary">#html #css #javascript</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </main>
+
+      <footer class="container">
+            <p class="mt-5 text-muted float-right">Project Explorer &copy; 2020 -<b>Edconnect</b></p>
+      </footer>
+  </body>
+</html>
